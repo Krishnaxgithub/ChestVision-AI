@@ -1,0 +1,341 @@
+
+/* =========================================================
+   GLOBAL
+========================================================= */
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+body{
+
+    background:
+    linear-gradient(
+        135deg,
+        #0f172a,
+        #1e293b
+    );
+
+    min-height:100vh;
+
+    font-family:'Inter',sans-serif;
+
+    color:white;
+
+    padding:40px;
+}
+
+
+/* =========================================================
+   MAIN CARD
+========================================================= */
+
+.glass-card{
+
+    max-width:1100px;
+
+    margin:auto;
+
+    background:
+    rgba(255,255,255,0.08);
+
+    backdrop-filter:blur(20px);
+
+    border:1px solid rgba(255,255,255,0.08);
+
+    border-radius:30px;
+
+    padding:50px;
+
+    box-shadow:
+    0 10px 40px rgba(0,0,0,.4);
+
+}
+
+
+/* =========================================================
+   TITLES
+========================================================= */
+
+h1{
+
+    font-weight:700;
+
+    font-size:3rem;
+
+    margin-bottom:10px;
+
+}
+
+h2{
+
+    font-weight:700;
+
+    margin-bottom:10px;
+
+}
+
+h3{
+
+    font-size:1.5rem;
+
+    font-weight:600;
+
+}
+
+h6{
+
+    color:#60a5fa;
+
+    font-weight:600;
+
+    margin-bottom:12px;
+
+}
+
+
+/* =========================================================
+   SUBTITLE
+========================================================= */
+
+.subtitle{
+
+    color:#94a3b8;
+
+    font-size:1rem;
+
+}
+
+.section-description{
+
+    color:#94a3b8;
+
+}
+
+
+/* =========================================================
+   FINDING CARD
+========================================================= */
+
+.finding-card{
+
+    background:
+    rgba(255,255,255,0.05);
+
+    border:
+    1px solid rgba(255,255,255,0.1);
+
+    border-radius:25px;
+
+    padding:30px;
+
+    margin-bottom:25px;
+
+    transition:0.3s;
+
+}
+
+
+.finding-card:hover{
+
+    transform:translateY(-6px);
+
+    box-shadow:
+    0 15px 35px rgba(0,0,0,.3);
+
+}
+
+
+.finding-card p{
+
+    color:#d1d5db;
+
+    line-height:1.8;
+
+}
+
+
+/* =========================================================
+   FORM
+========================================================= */
+
+.form-control{
+
+    background:
+    rgba(255,255,255,0.08);
+
+    color:white;
+
+    border:none;
+
+    border-radius:15px;
+
+    padding:16px;
+
+}
+
+
+.form-control:focus{
+
+    background:
+    rgba(255,255,255,0.12);
+
+    color:white;
+
+    box-shadow:none;
+
+}
+
+
+/* =========================================================
+   BUTTON
+========================================================= */
+
+.btn-primary{
+
+    background:
+    linear-gradient(
+        90deg,
+        #3b82f6,
+        #06b6d4
+    );
+
+    border:none;
+
+    border-radius:18px;
+
+    padding:16px;
+
+    font-weight:600;
+
+    transition:0.3s;
+
+}
+
+
+.btn-primary:hover{
+
+    transform:translateY(-3px);
+
+}
+
+
+/* =========================================================
+   PROGRESS BAR
+========================================================= */
+
+.progress{
+
+    height:14px;
+
+    border-radius:20px;
+
+    background:#1e293b;
+
+    overflow:hidden;
+
+}
+
+
+.progress-bar{
+
+    background:
+    linear-gradient(
+        90deg,
+        #3b82f6,
+        #06b6d4
+    );
+
+}
+
+
+/* =========================================================
+   BADGES
+========================================================= */
+
+.badge{
+
+    padding:10px 14px;
+
+    font-size:.9rem;
+
+    border-radius:14px;
+
+}
+
+
+/* =========================================================
+   HORIZONTAL LINE
+========================================================= */
+
+hr{
+
+    border-color:
+    rgba(255,255,255,.1);
+
+}
+
+
+/* =========================================================
+   ALERT
+========================================================= */
+
+.alert{
+
+    border-radius:20px;
+
+}
+
+
+/* =========================================================
+   SCROLLBAR
+========================================================= */
+
+::-webkit-scrollbar{
+
+    width:8px;
+
+}
+
+::-webkit-scrollbar-track{
+
+    background:#0f172a;
+
+}
+
+::-webkit-scrollbar-thumb{
+
+    background:#3b82f6;
+
+    border-radius:20px;
+
+}
+
+
+/* =========================================================
+   MOBILE
+========================================================= */
+
+@media(max-width:768px){
+
+    body{
+
+        padding:15px;
+
+    }
+
+    .glass-card{
+
+        padding:25px;
+
+    }
+
+    h1{
+
+        font-size:2rem;
+
+    }
+
+}
