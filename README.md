@@ -8,7 +8,7 @@ An AI-powered chest X-ray analysis web application built using **Flask**, **PyTo
 
 ### Prediction Results
 
-![Prediction Result](screenshots/result.png)
+![Prediction Result](screenshot/result.png)
 
 ---
 
